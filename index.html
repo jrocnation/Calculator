@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>The Spectacular Calculator</h1>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div class="display-last" id="lastOpDisplay"></div>
+                <div class="display-current" id="currOpDisplay">0</div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn" id="clear-btn">Clear</button>
+                <button class="btn" id="delete-btn">Delete</button>
+                
+                <button class="btn" data-type="number">7</button>
+                <button class="btn" data-type="number">8</button>
+                <button class="btn" data-type="number">9</button>
+                <button class="btn" data-type="operator">&div;</button>
+
+                <button class="btn" data-type="number">4</button>
+                <button class="btn" data-type="number">5</button>
+                <button class="btn" data-type="number">6</button>
+                <button class="btn" data-type="operator">&times;</button>
+
+                <button class="btn" data-type="number">1</button>
+                <button class="btn" data-type="number">2</button>
+                <button class="btn" data-type="number">3</button>
+                <button class="btn" data-type="operator">&minus;</button>
+
+                <button class="btn" id="equalsBtn">=</button>
+                <button class="btn" data-type="number">0</button>
+                <button class="btn" id="decimalPtBtn"><strong>.</strong></button>
+                <button class="btn" data-type="operator">&#43;</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="lightningBolt">
+        <span class="material-symbols-outlined">
+            bolt
+            </span>
+    </div>
+
+    <br>
+
+    <footer>Made by jrocnation &copy;</footer>
+</body>
+</html>
